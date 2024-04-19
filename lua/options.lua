@@ -57,7 +57,7 @@ vim.opt.inccommand = 'split'
 vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 3
 
 -- Setting the commandbar height
 vim.opt.cmdheight = 0
@@ -65,6 +65,6 @@ vim.opt.cmdheight = 0
 -- Setting the line length marker
 vim.opt.colorcolumn = '120'
 
-vim.o.guicursor = 'n-v-c-sm-i-ci-ve:block,r-cr-o:hor20,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor'
+-- vim.o.guicursor = 'n-v-c-sm-i-ci-ve:block,r-cr-o:hor20,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor'
 
 -- vim: ts=2 sts=2 sw=2 et
