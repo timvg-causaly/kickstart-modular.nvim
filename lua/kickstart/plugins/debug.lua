@@ -49,6 +49,7 @@ return {
 
     -- Basic debugging keymaps, feel free to change to your liking!
     vim.keymap.set('n', '<leader>bc', dap.continue, { desc = 'Debug: Start/Continue' })
+    vim.keymap.set('n', '<leader>bC', dap.run_to_cursor, { desc = 'Debug: Run to Cursor' })
     -- vim.keymap.set('n', '<leader>bsi', dap.step_into, { desc = 'Debug: Step Into' })
     -- vim.keymap.set('n', '<leader>sov', dap.step_over, { desc = 'Debug: Step Over' })
     -- vim.keymap.set('n', '<leader>sot', dap.step_out, { desc = 'Debug: Step Out' })
