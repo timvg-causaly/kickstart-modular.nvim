@@ -67,4 +67,7 @@ vim.opt.colorcolumn = '120'
 
 -- vim.o.guicursor = 'n-v-c-sm-i-ci-ve:block,r-cr-o:hor20,a:blinkwait700-blinkoff400-blinkon250-Cursor/lCursor'
 
+-- Setting the line length line
+vim.opt.colorcolumn = '120'
+
 -- vim: ts=2 sts=2 sw=2 et
