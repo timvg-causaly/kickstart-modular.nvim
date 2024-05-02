@@ -60,6 +60,9 @@ require('lazy').setup({
   -- Colourscheme
   require 'custom/plugins/theme',
 
+  -- Trouble
+  require 'custom/plugins/trouble',
+
   -- require 'custom/plugins/telescope-file-browser',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the

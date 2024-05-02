@@ -18,6 +18,9 @@ vim.keymap.set('i', 'jk', '<ESC>', { desc = 'Exit insert mode using jk' })
 vim.api.nvim_set_keymap('n', '<C-_>', 'gcc', { noremap = false })
 vim.api.nvim_set_keymap('v', '<C-_>', 'gcgv', { noremap = false })
 
+-- Toggle Trouble
+vim.keymap.set('n', '<leader>x', ':TroubleToggle<CR>', { desc = '[x] Toggle Trouble' })
+
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
 -- is not what someone will guess without a bit more experience.
